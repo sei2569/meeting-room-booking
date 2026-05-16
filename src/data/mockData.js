@@ -1,0 +1,42 @@
+export const ROOMS = [
+  { id: '1', name: 'Brooklyn', color: '#6894CE' },
+  { id: '2', name: 'Manhattan', color: '#95C8BD' },
+  { id: '3', name: 'Queens', color: '#656868' },
+  { id: '4', name: 'Staten Island', color: '#A3B9D9' },
+  { id: '5', name: 'Bronx', color: '#B5D9D1' },
+];
+
+export const INITIAL_BOOKINGS = [
+  {
+    id: '1',
+    roomId: '1',
+    roomName: 'Brooklyn',
+    title: 'Marketing Weekly Sync',
+    start: '2025-05-16T09:00:00',
+    end: '2025-05-16T10:30:00',
+    fullName: 'John Doe',
+    employeeId: 'EMP001',
+    position: 'Marketing Manager',
+    department: 'Marketing',
+    type: 'Internal',
+    participantCount: 8,
+    equipment: ['Projector', 'Whiteboard'],
+    note: 'Need extra chairs',
+  },
+  {
+    id: '2',
+    roomId: '2',
+    roomName: 'Manhattan',
+    title: 'Client Presentation',
+    start: '2025-05-16T13:00:00',
+    end: '2025-05-16T14:30:00',
+    fullName: 'Jane Smith',
+    employeeId: 'EMP002',
+    position: 'Sales Director',
+    department: 'Sales',
+    type: 'External',
+    participantCount: 5,
+    equipment: ['TV Screen'],
+    note: '',
+  },
+];
